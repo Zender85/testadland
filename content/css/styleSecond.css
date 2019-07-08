@@ -1,0 +1,113 @@
+html{}
+.cf:before, .cf:after{content:" ";display:table;}
+.cf:after{clear:both;}
+.h-w__inner{color:#fff;}
+.cf:before,
+.cf:after{content:" ";display:table;}
+.cf:after{clear:both;}
+@-webkit-keyframes thumb{0%{-webkit-transform:scale(1);}
+50%{-webkit-transform:scale(0.99);}
+100%{-webkit-transform:scale(1);}
+}
+.js_scrollForm.active{-webkit-animation-name:thumb;-webkit-animation-duration:100ms;-webkit-transform-origin:50% 50%;-webkit-animation-iteration-count:6;-webkit-animation-timing-function:linear;}
+.placeholder{color:#b3b3b3;font-size:13px;font-family:'Open Sans', sans-serif;}
+:-moz-placeholder{color:#b3b3b3;font-size:13px;font-family:'Open Sans', sans-serif;}
+::-webkit-input-placeholder{color:#b3b3b3;font-size:13px;font-family:'Open Sans', sans-serif;}
+textarea::-moz-placeholder{color:#b3b3b3;font-size:13px;font-family:'Open Sans', sans-serif;}
+textarea::-webkit-input-placeholder{color:#b3b3b3;font-size:13px;font-family:'Open Sans', sans-serif;}
+:-ms-input-placeholder{color:#b3b3b3;font-size:13px;font-family:'Open Sans', sans-serif;}
+.dib{zoom:1;display:-moz-inline-box;-moz-box-orient:vertical;display:inline-block;_display:inline;*display:inline;vertical-align:top;}
+.transitionmyl{-moz-transition:all 0.5s ease-out;-o-transition:all 0.5s ease-out;-webkit-transition:all 0.5s ease-out;}
+.transitionmyl1{-moz-transition:transform 0.5s ease-out;-o-transition:transform 0.5s ease-out;-webkit-transition:transform 0.5s ease-out;}
+.containerz{min-width:1007px;width:1024px;margin:0 auto;overflow:hidden;}
+.posabs{position:absolute;visibility:hidden;z-index:-9999999;}
+.hidden-window *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;line-height:1;}
+.hidden-window{position:static;display:none;top:0;left:0;width:100%;min-height:100%;font-family:'Open Sans';font-family:'Roboto', sans-serif;z-index:99;}
+select,
+input,
+textarea{font-family:"Roboto", sans-serif !important;}
+.formHeader{font-size:20px;text-align:center;padding-bottom:15px;font-weight:700;color:#000;text-transform:uppercase;}
+.h-w__header{color:#fffbd3;font-size:50px;font-weight:700;text-align:center;line-height:140px;}
+.totalpriceForm{font-size:22px;color:#000;padding-bottom:10px;}
+.js_total_price{font-size:28px;font-weight:700;}
+.h-w__header span{display:inline-block;*zoom:1;_display:inline;padding-left:77px;color:#000;}
+.dtable{display:table;width:100%;}
+.dtable-cell{display:table-cell;vertical-align:middle;}
+.dtr{display:table-row;}
+.text-center{text-align:center;}
+.text-right{text-align:right;}
+.w-h__left{margin-right:380px;margin-left:25px;}
+.w-h__left .item{position:relative;background:#fff;border:4px solid #b9e2ef;margin:0 4px 16px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;padding:20px 15px;color:#000;min-height:320px;}
+.w-h__left .item .zstick{background:url(//dadbab.info/content/Green_Coffee_ID_N2/imagesSec/zstick.png) 0 0 no-repeat;width:145px;height:145px;position:absolute;top:-25px;left:-25px;}
+.w-h__left .item.active{border:6px solid #f3b046;margin:0 0px 16px;}
+.w-h__left .item.hot{}
+.w-h__left .item .js_changer{position:absolute;width:31px;height:31px;top:120px;left:12px;z-index:9;background:url(//dadbab.info/content/Green_Coffee_ID_N2/imagesSec/zchek.png) 0 -31px no-repeat;}
+.w-h__left .item .js_changer:hover{cursor:pointer;}
+.w-h__left .item .js_changer.active{background-position:0 0;}
+.w-h__left .item .item__left{text-align:center;margin-right:290px;}
+.w-h__left .item .item__left .img-wrapp{position:relative;}
+.w-h__left .item .item__left .img-wrapp .gift{color:#24b3e1;;font-size:16px;text-shadow:1px 1px 5px #F3AF42;position:absolute;top:166px;left:147px;padding:3px;font-weight:700;}
+.w-h__left .item .item__left .img-wrapp .gift.th{top:181px;}
+.w-h__left .item .item__left .zHeader{font-size:24px;font-weight:700;color:#24b3e1;padding-top:15px;padding-bottom:5px;}
+.w-h__left .item .item__left .zHeader.sm{font-size:20px;}
+.w-h__left .item .item__left .zHeader span{border-bottom:1px solid #d5dde9;}
+.w-h__left .item .item__left text{font-size:14px;}
+.w-h__left .item .zDiscount{background:#f7eeec;padding:8px;color:#000;margin-top:20px;position:absolute;bottom:20px;right:20px;width:280px;font-size:17px;text-align:center;}
+.w-h__left .item .zDiscount span{color:#e80116;;text-transform:uppercase;}
+.w-h__left .item .item__right{width:280px;float:right;}
+.w-h__left .item .item__right .zHeader{font-size:33px;margin-bottom:40px;position:relative;white-space:nowrap;}
+.w-h__left .item .item__right .zHeader .zplus{font-size:14px;text-align:right;padding-right:5px;font-weight:700;color:#ffffff;background:url(//dadbab.info/content/Green_Coffee_ID_N2/imagesSec/zplus1.png) 0 0 no-repeat;width:146px;height:43px;line-height:54px;}
+.w-h__left .item .item__right .zHeader .zplus.sec{background:url(//dadbab.info/content/Green_Coffee_ID_N2/imagesSec/zplus2.png) 0 0 no-repeat;}
+.w-h__left .item .item__right .zHeader .zplus.th{background:url(//dadbab.info/content/Green_Coffee_ID_N2/imagesSec/zplus3.png) 0 0 no-repeat;}
+.w-h__left .item .item__right .zHeader b{font-size:45px;}
+.w-h__left .item .item__right .zHeader.sec{font-size:20px;}
+.w-h__left .item .item__right .zHeader.sec b{font-size:40px;}
+.w-h__left .item .item__right .zPrices{font-size:17px;position:relative;}
+.w-h__left .item .item__right .zPrices .ellipsDiscount{background:#d80215;color:#fff;position:absolute;top:-43px;right:35px;-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-webkit-transform:rotate(-8deg);transform:rotate(-8deg);text-align:center;padding:3px 9px;-webkit-border-radius:46px/22px;-moz-border-radius:46px/22px;border-radius:46px/33px;font-size:12px;}
+.w-h__left .item .item__right .zPrices .ellipsDiscount span{font-weight:700;}
+.w-h__left .item .item__right .zPrices .fst{font-size:14px;color:#7f8791;width:110px;}
+.w-h__left .item .item__right .zPrices .fst .fs17{font-size:17px;}
+.w-h__left .item .item__right .zPrices .text-left{text-align:left;padding-left:5px;}
+.w-h__left .item .item__right .zPrices .zSep{height:1px;background:#d5dde9;margin:10px 0;}
+.w-h__left .item .item__right .zPrices .prtotal{color:#e63c2e;;}
+.w-h__left .item .item__right .zPrices .prtotal b{font-size:27px;}
+.padding-top10px{padding-top:10px;}
+.old-pricedecoration{position:relative;}
+.old-pricedecoration i{position:absolute;top:9px;width:100%;height:1px;background:#e63c2e;;transform:rotate(-28deg);}
+.old-pr-descr{color:#e63c2e;;font-size:12px;line-height:10px !important;}
+.w-h__right{float:right;width:333px;}
+.w-h__right .printbg{background:url(//dadbab.info/content/Green_Coffee_ID_N2/imagesSec/printbg.png) 0 0 no-repeat;width:290px;height:83px;margin:25px auto;text-align:center;color:#2181d3;font-size:20px;text-transform:uppercase;font-weight:700;line-height:83px;padding-left:35px;-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-webkit-transform:rotate(-8deg);transform:rotate(-8deg);}
+.w-h__right .printbg span{color:#eea541;}
+.w-h__right .zGarant{background:#fff;color:#000;font-size:18px;padding:25px 20px 35px;margin-top:20px;margin-bottom:20px;}
+.w-h__right .zGarant .zHeader{font-size:24px;text-align:center;color:#dc4f79;font-weight:700;text-transform:uppercase;}
+.w-h__right .zGarant li{list-style:none;padding-left:30px;background:url("//dadbab.info/content/Green_Coffee_ID_N2/imagesSec/zli.png") 0 50% no-repeat;margin-top:25px;}
+.w-h__right .zGarant b{font-size:20px;}
+.w-h__right .zGarant ul{margin: 0px;padding: 0px;list-style: outside none none;}
+.w-h__right form{background:#ffdc2e;background:-moz-linear-gradient(top, #ffdc2e 0%, #fdbb01 100%);background:-webkit-linear-gradient(top, #ffdc2e 0%, #fdbb01 100%);background:linear-gradient(to bottom, #ffdc2e 0%, #fdbb01 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdc2e', endColorstr='#fdbb01', GradientType=0);padding:28px 30px 14px;}
+.w-h__right form input,
+.w-h__right form select,
+.w-h__right form textarea{width:100%;background-color:#fff;color:#000 !important;height:31px;font-size:16px;border:1px solid #d5dde9;}
+.w-h__right form .zbtn{width:250px;margin:0 auto;background:-webkit-linear-gradient(#e52454, #c40736);background:-o-linear-gradient(#e52454, #c40736);background:-moz-linear-gradient(#e52454, #c40736);background:linear-gradient(#e52454, #c40736);height:55px;border:1px solid #eb6672;position:relative;color:#fff;font-size:22px;font-weight:700;text-align:center;line-height:55px;text-transform:uppercase;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;}
+.w-h__right form .zbtn:hover,
+.w-h__right form .zbtn:active{transform:scale(1.1);-moz-transform:scale(1.1);-webkit-transform:translateZ(0) scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);cursor:pointer;box-shadow:1px 2px 30px #DB1B4B;}
+.w-h__right form .inp{background:#fff;border:1px solid #d5dde9;padding:0 15px;color:#000 !important;font-family:'Open Sans';font-size:16px;height:31px;margin:0 auto 10px;}
+.w-h__right form textarea{height:auto;resize:none;height:125px;padding:15px;margin-bottom:10px;}
+.w-h__right-row1{background:#fff;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+.w-h__right-row1 .zHeader{background-color:#f3af42;padding:15px;color:#fff;font-size:35px;text-align:center;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+.w-h__right-row1 .zHeader b{font-weight:700;font-size:29px;text-transform:uppercase;}
+.w-h__right-row1 .zContent{background:#fff;padding:10px 10px 5px;}
+.w-h__right-row1 .zContent .text-right{position:relative;}
+.w-h__right-row1 .zContent .text-right i{position:absolute;top: 50%;
+    left: 5px;
+    margin-top: -13px;}
+.w-h__right-row1 .dtable{color:#000;font-size:22px;line-height:1;font-weight:700;text-transform:uppercase;margin-bottom:10px;}
+.w-h__right-row1 .dtable span{color:#fff;background-color:#7eb263;}
+.w-h__right-row1 .text-right{padding-right:18px;width:40%;}
+.w-h__right-row1 .text-right img{max-width:100%;}
+.header_sub{line-height:1;position:relative;top:-33px;font-size:35px;color:#d63497;}
+.second-clips-header{height:127px;margin-bottom:60px;background:url("//dadbab.info/content/Green_Coffee_ID_N2/imagesSec/hehe.jpg") 50% 0 repeat;}
+.second-clips-header>div{position:relative;}
+.second-clips-header .logotop{position:absolute;top:0;left:0;}
+.yop-right__side{float:right;display:inline-block;font-size:36px;color:#fff;}
+.yop-right__side span{color:#f3af42;text-transform:uppercase;font-weight:700;font-size:40px;text-shadow:1px 1px 2px #000;}
+.yop-right__side .dtable-cell{height:127px;padding:0 10px;font-size:26px;}

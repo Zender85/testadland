@@ -1,0 +1,43 @@
+.yvedw{}
+
+.yved {
+    position: fixed;
+    vertical-align: middle;
+    color: white;
+    font-size: 15px;
+    line-height: 90px;
+    top: 65px;
+    right: 40px;
+    width: 338px;
+    height: 119px;
+
+    background-position: center left;
+    background-image: url("//dadbab.info/content/xXlHZ0stMbBDQhY/img/message.png");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.51);
+    border-radius: 10px;
+    z-index: 10;
+    padding: 18px 5px 0px 89px;
+    display: none;
+}
+.yvedt{
+    line-height: normal;
+    display: inline-block;
+}
+.yvedf1{
+
+}
+.yvedf2{
+
+}
+.yvedvt{
+    float: left;
+    height: 73px;
+    line-height: 90px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 639px) {
+    .yved { display: none !important; }
+}

@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<style>
+	body,html{margin:0;padding:0;font-size:16px}body{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;background:-webkit-gradient(linear,left top,right top,from(#808195),color-stop(#b6b6c2),color-stop(#b6b6c2),color-stop(#b6b6c2),to(#808195));background:linear-gradient(90deg,#808195,#b6b6c2,#b6b6c2,#b6b6c2,#808195)}h1{font-weight:500;line-height:1.1;color:#3d3d3d;text-align:center;font-size:30px}h3{text-align:left;font-weight:500;line-height:1.1;color:#3d3d3d;font-size:25px;margin:10px 0}p{margin:10px 0;font-size:18px;color:#3d3d3d;line-height:25px}.wrapper{max-width:600px;min-width:320px;margin:0 auto;position:relative;background:#fff}.content{padding:10px;padding-top:140px}section{margin-bottom:30px}.box{border:2px solid #f7f9b6;background-color:#ffffec;padding:10px}.box img{float:none;max-width:300px;width:100%;margin:0 auto;display:block}.text-right{text-align:right}.text-center{text-align:center}.right_image{float:right;position:relative;display:block}.margin_left{margin-left:10px}.margin_bottom{margin-bottom:20px}.cm_ul{list-style:none;display:block;margin-left:20px;padding:0;position:static!important;font-size:18px;line-height:25px;color:#3d3d3d}.cm_ul li{padding-left:50px;background:url(img/li_belt.png) 0 50% no-repeat}.guard{text-align:left;background:url(img/shield_green.png) left 50% no-repeat;height:45px;vertical-align:middle;padding-left:50px;display:table-cell}.with_left_line{border-left:3px solid #dcdcdc;padding-left:20px;margin-left:20px;margin-top:20px;margin-bottom:20px}.prod{max-width:300px;margin:0 auto;display:block}.price{font-size:25px}.order_form{border:3px solid #794293;padding:20px;color:#3d3d3d}.form-label{display:inline-block;margin-bottom:5px;font-weight:700}.margin_top{margin-top:30px}.row{position:relative}.form-control{font-size:18px;box-sizing:border-box;display:block;width:100%;padding:6px 12px;color:#555;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out}::placeholder{color:inherit;opacity:.54}:-ms-input-placeholder{color:#999}::-ms-input-placeholder{color:#999;opacity:1}.help-block{margin:5px 0;display:block}.prod_wrapp{position:relative;max-width:300px;margin:0 auto}.prod_buff{position:absolute;width:80px;height:80px;top:-10px;left:165px}.btn{display:block;margin-left:auto;margin-right:auto;height:50px!important;font-size:35px!important;background:#794293!important;font-weight:400;border:none;color:#fff;padding:5px 60px;border-radius:4px;cursor:pointer;text-transform:uppercase}.small_text{color:#aaa;max-width:700px;font-size:14px;line-height:15px;text-align:center}.blue_box{max-width:300px;margin:0 auto 10px;background-color:#e0f0fa;border:3px inset #05adea;text-align:center;padding:0 5px}.blue_box img{display:block;margin:10px auto 20px;max-width:165px}.blue_box h3{text-align:center;font-size:22px;color:red}.doctor_image{display:block;margin:0 auto;width:100%}a{color:rgb(51,122,183);text-decoration:none}a:hover{text-decoration:underline}.bold_text_center{text-align:center;font-size:18px;font-weight:700}.bold_text_red{color:red;font-weight:700}
+	</style>
+	<!--capStyle-->
+	<style>.cap_head{position:fixed;max-width:600px;background-color:rgba(255,255,255,.9);width:100%;border-bottom:3px solid #b6b6c2;padding:10px 0;z-index:10}.cap_timer,.cap_button{width:50%;display:inline-block;text-align:center}.cap_timer{font-size:30px;font-weight:700;text-transform:uppercase}.cap_button{position:relative}.cap_button button{cursor:pointer;position:absolute;top:-65px;left:80px;text-decoration:none;border:none;color:#fff;font-size:35px;background:#0f8090;padding:10px 20px;border-radius:4px;text-transform:uppercase}#clockdiv{display:block;font-weight:400;font-size:50px}@media (max-width:500px){.cap_button button{font-size:35px;top:-65px;left:30px}}@media (max-width:400px){.cap_timer{font-size:22px}#clockdiv{font-size:37px}.cap_button button{font-size:25px;top:-50px;left:25px}.content{padding-top:120px}}
+	</style>
+	<script>
+		function dtime_nums(d,like_eu){var now=new Date();now.setDate(now.getDate()+d+1);var dayNum='';if(now.getDate()<10){dayNum='0'}
+		dayNum+=now.getDate();var monthNum='';if(now.getMonth()+1<10){monthNum='0'}
+		monthNum+=now.getMonth()+1;if(like_eu===!0){document.write(dayNum+"."+monthNum+"."+now.getFullYear())}else{document.write(monthNum+"."+dayNum+"."+now.getFullYear())}}
+	</script>
+
+    <title>Herbaslim</title>
+
+
+
+  </head>
+  <body>
+	<div class="wrapper">
+	<div class="cap_head">
+		<div class="cap_timer">
+			Diskon <span style="color:red;"/>-50%</span>
+			<div id="clockdiv">
+				<span id="hours">00</span>:<span id="mins">17</span>:<span id="secs">00</span>
+			</div>
+		</div><div class="cap_button">
+			<a class="scroll" href="#order_form">
+				<button>
+					pesan
+				</button>
+			</a>
+		</div>
+	</div>
+		<div class="content">
+			<section id="section1">
+				<span>
+					<script type="text/javascript">
+						dtime_nums(-8, true)
+					</script>
+				</span>
+				<h1>Anda bisa menurunkan berat hingga 17 kg dalam 2 minggu, tanpa diet, olahraga dan stres</h1>
+				<div class="box">
+					<img src="img/user13-min.jpg" alt="">
+					<h3>
+						”Pasti Berubah 100%”
+					</h3>
+					<p>
+						"Dari 70 kg menjadi 51 kg, saya bisa menurunkan berat hingga 19 kg. Saya tetap makan seperti biasa. Sangat luar biasa!"
+					</p>
+					<p class="text-right">
+                        <b>Jihan Kintamani</b>
+                    </p>
+				</div>
+			</section>
+			<section id="section2">
+				<img class="doctor_image" src="img/specialist_cqplus_600_s-min.jpg">
+				<p>
+					Halo
+				</p>
+				<p>
+					Nama saya Kevin, dan saya seorang ahli gizi. Saya sudah berpengalaman lebih dari 15 tahun dalam bidang penurunan berat badan.
+				</p>
+				<p>
+					Sepanjang masa penelitian, saya sudah membantu lebih dari 2000 orang dengan kelebihan berat badan. Pengalaman mereka mengajarkan saya untuk tidak menyepelekan masalah obesitas. 
+				</p>
+				<p>
+					Buat saya, menurunkan berat hingga 10 kg merupakan hal yang susah. Lebih susah dari yang dibayangkan siapa pun.
+				</p>
+				<p>
+					Jadi, apa yang harus kita lakukan? Bagaimana caranya menurunkan kelebihan berat ini?
+				</p>
+				<p>
+					Faktanya adalah, untuk bisa melawan obesitas, Anda harus melakukan lebih dari sekadar diet dan mengontrol makanan. 
+					<b> Selain berolahraga, Anda juga memerlukan sesuatu yang lebih untuk membantu Anda, seperti senjata yang ampuh untuk melawan kelebihan lemak di tubuh namun harus aman dan efektif.</b>
+				</p>
+				<p>
+					Saya mencoba beragam cara, dan ternyata ada satu cara yang bisa mengurangi berat sampai 9 kg dalam seminggu pertama. Saya juga bertemu dengan orang yang bisa menurunkan berat 2,5 kg dalam 48 jam saja. Dan banyak yang bisa menurunkan hingga 17 kg dalam 2 minggu.
+				</p>
+				<p>
+					Beberapa dari orang-orang yang mengalami obesitas ini juga ada yang turun beratnya hingga
+					<b>20,30,50 kg</b> bahkan lebih.
+				</p>
+				<p>
+					Ini berarti, masalah obesitas bisa teratasi dengan mudah :
+				</p>
+				<ul class="cm_ul">
+					<li>Ukuran pinggang turun 15 cm</li>
+					<li>Ukuran perut bagian bawah turun 12 cm</li>
+					<li>Ukuran pantat turun 10 cm</li>
+					<li>Ukuran paha turun 7 cm</li>
+					<li>Ukuran pinggul turun 12 cm</li>
+				</ul>
+				<p>
+					Hasil ini benar-benar terjadi. Dari penemuan saya, cara ini bekerja dalam tiga tingkatan:
+				</p>
+			</section>
+			<section>
+				<h3 class="guard">Menghambat Rasa Lapar</h3>
+				<p class="with_left_line">
+					Anda tidak bisa menurunkan berat dengan diet. Rasa lapar akan menghancurkan diet Anda cepat atau lambat. Dengan suplemen ini, Anda tidak akan mudah merasa lapar lagi. Nafsu makan akan berkurang dan meningkatkan proses metabolisme.
+				</p>
+				<h3 class="guard">Menambah Energi</h3>
+				<p class="with_left_line">
+					Dalam beberapa hari,  energi dalam tubuh Anda akan semakin meningkat dan akan terus berlangsung selama 10 hari kemudian. Meningkatnya energi secara konstan membuat Anda memiliki 80% lebih banyak energy dari biasanya.
+				</p>
+				<h3 class="guard">Berat Badan Otomatis Berkurang!</h3>
+				<p class="with_left_line">
+					Dimulai ketika Anda mengonsumsi suplemen ini, berat badan akan otomatis berkurang. Anda tidak perlu lagi khawatir dengan berat berlebih, tanpa rasa lapar, sampai Anda sendiri lupa sedang berusaha menurunkan berat badan
+				</p>
+				<p>
+					Bahan apakah yang terkandung di dalamnya? <b>Untuk pertama kalinya suplemen yang aktif membakar lemak dengan cepat, aman dan mencegah munculnya lemak baru dikemas dalam satu kapsul!</b> Suplemen yang mengandung 3 bahan utama seperti ekstrak Garcinia-Cambogia, teh hijau dan ekstrak daun jati belanda.  Ketiga bahan utama tersebut diformulasikan dalam bentuk kapsul Herbaslim.
+				</p>
+				<p>
+					Apa yang membuat produk ini lebih unggul dari yang lainnya dan membuat pasien saya bisa menurunkan berat dengan mudah?
+				</p>
+				<p>
+					Kandungan bahannya membantu menurunkan nafsu makan serta membuat tidak ingin ngemil. Sangat penting untuk tidak ngemil selama Anda menurunkan berat badan. Selain itu, <b>produk ini dapat membantu meningkatkan sistem metabolisme.</b> Meghancurkan lemak yang menumpuk di hati serta meluruhkan racun-racun di dalam tubuh Anda.
+				</p>
+				<p>
+					Sebagai tambahan, kandungan ekstrak Garcinia Cambogia ini sangat efektif bekerja langsung untuk menurunkan berat badan. Garcinia Cambogia bekerja efektif pada metobolisme untuk mengendalikan protein. Karbohidrat dan lemak, serta membantu menyeimbangkan pembentukan energi dalam tubuh. Dengan mengubah lemak menjadi energi, maka Anda bisa menurunkan berat badan secara cepat dan mudah. Dan kandungan tinggi ekstrak Garcinia Cambogia ini juga mampu melawan radikal bebas yang bisa menyebabkan kerutan di kulit serta terjadinya penimbunan lemak.
+				</p>
+				<p>
+					Ekstrak Gacinia-cambogia secara efektif turunkan berat badan hingga 3 kali lipat dengan kandungan serotonin yang berfungsi mempercepat pembakaran lemak. Bahan-bahan alami lain seperti teh hijau yang membantu dalam mempercepat proses pembakaran lemak dalam tubuh walaupun dalam tubuh dalam kondisi diam atau tertidur dengan membakar lemak lebih banyak 3-4%. Lalu kandungan ekstrak daun jati Belanda yang dipercaya dapat mengikat nafsu makan sehingga nafsu makan yang berlebih pun berkurang.
+				</p>
+				<p>
+					Hasil penelitian saya, untuk menurunkan berat secara efektif, Anda memerlukan produk dengan kandungan Garcinia Cambogia aktif dan antioksidan.
+				</p>
+				<p>
+					Saya menemukan perusahaan yang memproduksi kapsul Herbaslim dengan manfaat maksimal.<b> <a    class="scroll" href="#order_form"> Herbaslim</a>, mengandung ekstrak Garcinia Cambogia dari buah Malabar Tamarind, mampu mengontrol pembakaran lemak dalam tubuh. </b></p>
+				<p class="margin_bottom">
+					Herbaslim membuat penurunan berat badan menjadi:
+				</p>
+				<h3 class="guard">MUDAH</h3>
+				<p class="with_left_line">
+					Sekarang Anda bisa tahu cara langsing tanpa harus diet ketat, tanpa harus latihan keras, bahkan Anda tidak mengubah pola makanan Anda. Dengan hanya 2 kapsul per hari, Anda akan melihat penurunan berat badan dalam beberapa hari.
+				</p>
+				<h3 class="guard">ALAMI DAN AMAN</h3>
+				<p class="with_left_line">
+					Ekstrak alami Garcinia-cambogia dari buah Malabar Tamarind, yang berasal dari India, memiliki sifat menurunkan berat badan. Selain itu, Garcinia-cambogia juga memiliki beberapa manfaat lain: menjaga kesehatan kondisi tubuh, meningkatkan kinerja fisik, membantu untuk mengurangi kolesterol tinggi, mengatur tekanan darah, memaksimalkan penyerapan nutrisi dan vitamin dalam tubuh Anda.
+				</p>
+				<img class="doctor_image" src="img/maria3.jpg">
+				<p>
+					Dengan kandungan bahan-bahan alami dan tanpa efek samping yang berbahaya, para ahli merekomendasikan Herbaslim untuk Anda yang ingin menurunkan berat badan berlebih. Produk ini telah tersertifikasi dan teruji keefektifannya.
+				</p>
+				<p>
+					Ini barangkali adalah cara yang paling efektif untuk menurunkan berat badan dengan cara sehat dan hasilnya tahan lama, serta membuat tubuh menjadi indah dan ramping. <a class="scroll" href="#order_form"> Herbaslim</a> adalah produk asli yang telah lulus uji laboratorium, yang efektivitasnya telah dikonfirmasi oleh ratusan orang yang telah menggunakan <a class="scroll" href="#order_form"> Herbaslim</a>.
+				</p>
+			</section>
+			<section>
+				<div class="box margin_bottom">
+					<img src="img/user14-min.jpg" alt="">
+					<h3>
+						Dari Bahan Alami
+					</h3>
+					<p>
+						Banyak cara menurunkan berat yang malah membuat saya kelelahan dan tidak bertenaga. Tapi yang ini berbeda, seperti kehilangan berat secara alami saja. Saya merasa lebih ringan dan sehat dalam waktu yang sama. Saya berhasil menurunkan hingga 24 kg dan Nampak 10 tahun lebih muda dari biasanya.
+					</p>
+					<p class="text-right">
+                        <b>Nurfitria Dwisyanto</b>
+						<br>
+						<i>Turun 24 kg dalam 2 bulan</i>
+                    </p>
+				</div>
+				<p class="margin_bottom">
+					Harap diperhatikan, jika metode ini sama seperti banyak metode lain yang mungkin memiliki hasil yang berbeda untuk setiap orang. Beberapa orang memiliki kondisi tubuh yang berbeda-beda yang mungkin tidak akan berhasil menggunakan metode ini. Akan tetapi perusahan sangat senang bisa menjamin kesuksesan produknya pada banyak orang.
+				</p>
+				<h3 class="text-center">
+					<b>Garansi Kepuasan</b>
+				</h3>
+				<p class="bold_text_center">
+					Kami memberikan Garansi Kepuasan untuk pelanggan dan menjamin hasil maksimal pada setiap pemakaian.
+				</p>
+				<h3 class="text-center">
+					Bagaimana cara mendapatkan Herbaslim dengan harga murah?
+				</h3>
+				<p>
+					Sulit untuk mendapatkan kualitas terbaik dari ekstrak Garcinia-cambogia, jadi harganya relatif tidak murah. Namun, produsen telah memberikan diskon khusus bagi pelanggan yang pertama kali melakukan pembelian Herbaslim. Anda cukup memesan hari ini, maka Anda akan mendapatkan diskon spesial 50%, untuk mendapatkan suplemen ekstrak Garcinia-cambogia dalam bentuk kapsul.
+				</p>
+					<p>Hari ini ada promosi: kemasan Herbaslim asli Sebelum <span class="bold_text_red">
+					<span> 
+						<script type="text/javascript">
+							dtime_nums(-1, true)
+						</script>
+					</span> dijual dengan diskon 50% </span></p>
+				<p>
+					Anda cukup klik pada tombol pesan dan mengisi formulir online dengan benar. Herbaslim akan kami kirimkan ke alamat Anda dalam waktu pengiriman maksimal 2 hari.
+				</p>
+				<p>
+					Secara pribadi, saya yakin bahwa Anda akan sepenuhnya puas. Sebernanya saya berasumsi Anda akan menurunkan berat badan lebih cepat dari yang Anda bayangkan.
+				</p>
+				<p class="text-right">
+					Semoga Sukses! 
+					<br>
+					Kevin Anderson
+				</p>
+				<p class="text-center">
+					Kemasan asli,
+					<br>
+					murni ekstrak Garcinia-cambogia 95%
+				</p>
+			</section>
+			<section>
+				<p style="margin:10px 0;">Dengan memesan melalui situs website ini Anda akan mendapatkan produk asli yang telah diuji secara klinis dan terdaftar di BPOM (TR 193324201). Anda dapat meyakini bahwa produk ini memiliki kualitas yang sangat tinggi.</p>
+				<div class="prod_wrapp">
+					<img class="prod" src="img/prod1.jpg">
+					<img class="prod_buff" src="img/th_satisfaction.png">
+				</div>
+				<p class="text-center price margin_bottom">
+					<b>
+						<span style="text-decoration: line-through;font-size:20px;">980 000 IDR</span>
+						<br>
+						<span class="bold_text_red">490 000 IDR</span>
+					</b>
+				</p>
+				<p style="text-align:center;">
+					Anda dapat memperoleh produk dengan harga spesial selama periode <script type="text/javascript">
+						dtime_nums(-8, true)
+					</script> sampai <span class="bold_text_red">
+					<script type="text/javascript">
+						dtime_nums(-1, true)
+					</script></span>!
+				</p>
+				<p style="text-align:center;">
+					Anda akan menghemat uang Anda jika pembelian dilakukan hari ini dan dapatkan diskon 50%! pengiriman gratis.
+				</p>
+			</section>
+			<section>
+				<div class="order_form margin_bottom">
+					<p class="bold_text_center">
+						Tinggalkan nomor telepon anda lalu konsultan kami akan segera menghubungi anda dan memberikan konsultasi gratis untuk anda.
+					</p>
+					<p style="text-align:center;" id="order_form">
+						Pengiriman Herbaslim dilakukan melalui kurir atau pos, dalam beberapa hari kedepan, secara gratis. Metode pembayaran: COD (Pembayaran di Tempat).
+					</p>
+					<form method="post" action="order.php" class="margin_top" onsubmit="validateform(this); return false;">
+					        
+					        <input type="hidden" name="product" value="0e25625d-4b5c-43ea-8c06-f882ab70db1d" >
+					        <input type="hidden" name="clickid" value="idoslimesnewk">
+							<input type="hidden" name="s1" value="157"/>
+                            <input type="hidden" name="s2" value="7b7e1pmb7b7ir17d"/>
+					        <input name="esub" type="hidden" value="-7EBRQCgQAAANEeQM_NAAAAyOjAAMPRhEjXRERChEJChENQhENWgABf2FkY29tYm__YTMxMGQwNDIAAzc2"><input name="template_name" type="hidden" value="xXlHZ0stMbBDQhY"><input name="country_code" type="hidden" value="ID"><input name="offer_id" type="hidden" value="13375">
+						<div class="row margin_bottom">
+							<label for="name" class="form-label">Nama(wajib):</label>
+							<input class="form-control" placeholder="(wajib)" required="required" name="name" type="text">
+						</div>
+						<div class="row margin_bottom">
+							<label for="phone" class="form-label">
+								<span style="color:red;">*</span>Nomor Telepon(wajib):
+							</label>
+							<input class="form-control" placeholder="(wajib)" required="required" name="phone" type="tel">
+						</div>
+						<div class="row margin_top">
+							<label for="phone2" class="form-label">
+								Telepon tambahan(tidak wajib):
+							</label>
+							<input class="form-control margin_bottom" placeholder="(tidak wajib)" name="cc_additional11" type="tel">
+							<button type="submit" class="btn">
+								Pesan
+							</button>
+						</div>
+					</form>
+				</div>
+				<p class="margin_top margin_bottom">
+					<strong>PS:</strong>
+					Promosi hanya berlaku sampai <br>
+					<span style="display:block;" class="bold_text_center bold_text_red">
+						<script type="text/javascript">
+							dtime_nums(-1, true)
+						</script>
+					</span>
+				</p>
+			</section>
+			<section>
+				<div class="blue_box">
+					<img src="img/user01-min.jpg" alt="">
+					<h3>
+						Herbaslim membantu pasien-pasien saya!
+					</h3>
+					<p>
+						Dia dan juga rekan kerjanya sesama pakar diet yang telah berpengalaman lebih dari 20 tahun dalam memberikan konsultasi diet kepada pasiennya sangat merekomendasikan Herbaslim sebagai suplemen diet berbahan alami 100%, efektif dan telah terbukti berhasil membantu pasein-pasiennya dalam program penurunan berat badan. 
+						<br>
+						“Lebih mengejutkan lagi berat badan para pasiennya pun tidak kembali ke semula, saya sangat merekomendasikan suplemen ini”, tuturnya. 
+					</p>
+					<p class="margin_top">
+						<u> Ahli Nutrisi dan gizi serta pakar diet, </u>
+						<br>
+						<b>Dr. Gunawan Ramli.</b>
+					</p>
+				</div>
+				<div class="blue_box">
+					<img src="img/user02-min.jpg" alt="">
+					<h3>
+						Produk yang mengubah hidup!
+					</h3>
+					<p>
+						Produk ini aman dikonsumsi baik pria ataupun wanita yang mengalami obesitas. Bahan-bahan alami yang diformulasikan dengan ekstrak Garcinia-camboia sebagai bahan utamanya terbukti membantu para pasien saya untuk menurunkan berat badan berlebih mereka bahkan hanya dalam waktu satu bulan. Produk yang saya rekomendasikan untuk pasien-pasien saya saat ini sebagai suplemen diet sehat mereka.
+					</p>
+					<p class="margin_top">
+						<u> akar diet dan pola makan sehat, </u>
+						<br>
+						<b>Dr. Sonia Namira </b>
+					</p>
+				</div>
+				<div class="blue_box">
+					<img src="img/user03-min.jpg" alt="">
+					<h3>
+						Perut Buncit Hilang, Penurun Berat yang Luar Biasa!
+					</h3>
+					<p>
+						Cara kerjanya dengan menurunkan nafsu makan. Saya tidak merasakan apapun saat berat mulai turun dari 5, 10, 20 kg sampai akhirnya saya berhasil turun 23 kg dan saya sangat puas.
+					</p>
+					<p class="margin_top">
+						<b>Tantan Gunawan</b>
+						<br>
+						Turun<u> 23 kg dalam 3 bulan </u>
+					</p>
+				</div>
+				<div class="blue_box">
+					<img src="img/user04-min.jpg" alt="">
+					<h3>
+						Hasil yang di luar dugaan!
+					</h3>
+					<p>
+						Anda hanya perlu minum satu kapsul sebelum sarapan dan sebelum makan malam. Setelah itu, tidak perlu lagi khawatir dengan apapun. Anda hanya tinggal menunggu dan lihat hasilnya yang mengagumkan.
+					</p>
+					<p class="margin_top">
+						<b>Tiara Maharany </b>
+						<br> Turun
+						<u>17 kg dalam 2 bulan</u>
+					</p>
+				</div>
+				<div class="blue_box">
+					<img src="img/user05-min.jpg" alt="">
+					<h3>
+						Berat Saya Turun dalam Sekejap Mata!
+					</h3>
+					<p>
+						Pada saat bulan pertama saya berhasil turun 10 kg, kemudian bulan kedua saya turun lagi 7 kg. ini adalah produk pelangsing terbaik yang pernah saya temukan!
+					</p>
+					<p class="margin_top">
+						<b>Chitra Purnamasari</b>
+						<br> Turun
+						<u>17 kg dalam 2 bulan </u>
+					</p>
+				</div>
+				<div class="blue_box">
+					<img src="img/user06-min.jpg" alt="">
+					<h3>
+						Berat Saya Turun!
+					</h3>
+					<p>
+						Seandainya saya tidak pernah mencoba Herbaslim, merupakan suatu kesalahan besar karena dengan ini saya berhasil turun hingga 16 kg. saya merasa sangat bugar. Bersemangat dan bernergi!
+					</p>
+					<p class="margin_top">
+						<b>Sundari Cokrowinata</b>
+						<br> Turun
+						<u>16 kg dalam 2 bulan </u>
+					</p>
+				</div>
+				<div class="blue_box">
+					<img src="img/user07-min.jpg" alt="">
+					<h3>
+						Tidak Gemuk Lagi!
+					</h3>
+					<p>
+						Berat saya turun hingga 15 kg dan tidak naik lagi setelah 6 bulan sekarang. Saya sangat merekomendasikan untuk Anda yang mencari produk aman dan teruji!
+					</p>
+					<p class="margin_top">
+						<b>Namira Uthari</b>
+						<br> Turun by
+						<u>15 kg dalam 2 bulan</u>
+					</p>
+				</div>
+				<div class="blue_box">
+					<img src="img/user08-min.jpg" alt="">
+					<h3>
+						Membuat Lemak Menghilang!
+					</h3>
+					<p>
+						Beratku turun 3-4 kg dalam satu minggu, Herbaslim ini betul-betul mengyingkirkan lemak di tubuhku! Kapsul ini betul-betul ajaib!
+					</p>
+					<p class="margin_top">
+						<b>Hardy Wijaya</b>
+						<br>Berat Turun 
+						<u>15 kg dalam 2 bulan</u>
+					</p>
+				</div>
+				<div class="blue_box">
+					<img src="img/user09-min.jpg" alt="">
+					<h3>
+						Betul-betul Sukses!
+					</h3>
+					<p>
+						Sebelum saya menemukan Herbaslim, saya selalu gagal dalam menurunkan berat badan. Dengan ini, hanya dalam 2 bulan saya berhasil menurunkan 20 kg dan akhirnya bisa mewujudkan impian saya.
+					</p>
+					<p class="margin_top">
+						<b>Aryani Sundarani</b>
+						<br>Berat turun 
+						<u>20 kg dalam 2 bulan</u>
+					</p>
+				</div>
+				<div class="blue_box">
+					<img src="img/user10-min.jpg" alt="">
+					<h3>
+						Akhirnya Saya Berhasil Menurunkan Berat!
+					</h3>
+					<p>
+						Saya mengikuti saran teman karena saya ingin bisa menurunkan berat seperti teman saya itu. Entah dengan diet ketat atau olahraga sudah saya coba. Tapi ternyata menggunakan Herbaslim yang membuat saya bisa menurunkan berat yang naik semasa remaja hingga 19 kg. 
+					</p>
+					<p class="margin_top">
+						<b>Eli Wahyu Subekti</b>
+						<br> Turun
+						<u>19 kg dalam 2 bulan</u>
+					</p>
+				</div>
+			</section>
+			<p class="margin_top small_text">
+				Produk ini adalah suplemen diet, bukan obat untuk pengobatan penyakit, suplemen makanan tidak boleh digunakan sebagai pengganti makanan yang bervariasi dan seimbang. Sebuah diet yang bervariasi dan seimbang dan gaya hidup sehat yang dianjurkan. Paket tersebut berisi 30 kapsul dan cukup untuk 2 minggu terapi
+			</p>
+			<p class="small_text">
+				Untuk menyediakan layanan yang efisien, dan kepentingan keselamatan pemilik website ini berhak untuk melakukan perubahan terhadap Kebijakan Privasi. Tindakan ini bertujuan untuk menjaga anonimitas pelanggan-pelanggan. Untuk meningkatkan kepuasan dengan layanan yang diberikan kepada pelanggan-pelanggan, namanya telah diubah demi keamanan dan privasi. Setiap kemiripan dengan orang-orang yang nyata adalah murni kebetulan.	
+			</p>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+		function validateform(form) {
+            if (form.elements["name"].value == "") {
+                alert("Please, enter your full name");
+                return false;
+            }
+            if (form.elements["name"].value.length < 2) {
+                alert("Please, enter your full name");
+                return false;
+            }
+            var phone_reg = new RegExp('[A-z А-я]', 'g');
+            var literInPhone = phone_reg.test(form.elements["phone"].value);
+            if (form.elements["phone"].value == "") {
+                alert("Please, enter your phone number");
+                return false;
+            }
+            if (literInPhone) {
+                alert("Please, enter your phone number");
+                return false;
+            }
+
+            if (form.elements["phone"].value.length < 9) {
+                alert("Please, enter your phone number");
+                return false;
+            }
+
+            form.submit();
+        }
+	
+    var timerSec = 17 * 60;
+    var year = 2222;
+    var month = 4;
+    var day = 4;
+    var hour = 0;
+    var min = 0;
+    var sec = 0;
+
+    dateFuture = new Date(year, month - 1, day, hour, min, sec);
+
+    function GetCount() {
+        amount = timerSec;
+        timerSec = timerSec - 1;
+        dateNow = new Date();
+        delete dateNow;
+        if (amount < 0) {
+            $('#hours').html('00');
+            $('#mins').html('00');
+            $('#secs').html('00');
+        } else {
+            days = 0;
+            hours = 0;
+            mins = 0;
+            secs = 0;
+            out = "";
+            days = 0;
+            hours = 0;
+            mins = Math.floor(amount / 60);
+            secs = Math.floor(amount - mins * 60);
+            if (days < 10) days = '0' + hours;
+            if (hours < 10) hours = '0' + hours;
+            if (mins < 10) mins = '0' + mins;
+            if (secs < 10) secs = '0' + secs;
+            $('#hours').html(hours);
+            $('#mins').html(mins);
+            $('#secs').html(secs);
+            setTimeout("GetCount()", 1000);
+        }
+    }
+
+    GetCount();
+	
+		$('.scroll').click(function () {
+            var orderForm = $('form').last().offset().top-150;
+            $('html,body').animate({
+                scrollTop: orderForm
+            }, 700);
+
+            return false;
+        });
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2258 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.428571429;
+}
+
+.light {
+    font-family: 'Open Sans Light', sans-serif;
+}
+
+a {
+    outline: none;
+}
+
+a img {
+    border: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+.block14-img-wrap {
+    position: relative;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+.block14 .content2 {
+    text-align: center;
+}
+.block14-img {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    width: 250px;
+    border: 5px solid white;
+    transform: rotate(-15deg);
+}
+.block14-img--after {
+    transform: rotate(15deg);
+}
+.block14-img-wrap .block14-product {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 150px;
+}
+.block14-product {
+    position: absolute;
+    right: 120px;
+    top: 20px;
+    width: 180px;
+}
+@media screen and (max-width: 1600px) {
+    .block14-product {
+        max-width: 150px;
+        right: 100px;
+    }
+}
+.limit {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.btn {
+    outline: none;
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn.btn-transparent {
+    background: none;
+    display: block;
+    border: 1px solid #c1ff72;
+    color: #c1ff72;
+}
+
+.btn.btn-transparent:hover {
+    color: #ffffff;
+    border-color: #fff;
+}
+
+.btn.btn-with-arrow {
+    position: relative;
+    text-align: left;
+}
+
+.btn.btn-with-arrow:after {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/btn-arrow.png') no-repeat;
+    width: 8px;
+    height: 15px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 17px;
+    opacity: 0.5;
+    margin-top: -8px;
+}
+
+.btn.btn-with-arrow:hover:after {
+    opacity: 1;
+}
+
+.btn.btn-primary {
+    font-size: 19px;
+    background: #dd3838;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.26);
+    background: -moz-linear-gradient(left, #8bbb3f 0%, #729b01 100%);
+    background: -webkit-linear-gradient(left, #8bbb3f 0%, #729b01 100%);
+    background: linear-gradient(to right, #8bbb3f 0%, #729b01 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8bbb3f', endColorstr='#729b01', GradientType=1);
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:focus {
+    background: #ef2222;
+    background: -moz-linear-gradient(left, #729b01 0%, #8bbb3f 100%);
+    background: -webkit-linear-gradient(left, #729b01 0%, #8bbb3f 100%);
+    background: linear-gradient(to right, #729b01 0%, #8bbb3f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#729b01', endColorstr='#8bbb3f', GradientType=1);
+}
+
+.btn.btn-block {
+    width: 100%;
+    display: block;
+}
+
+.btn.btn-fixed {
+    line-height: 1;
+    display: block;
+    padding: 15px 33px 9px;
+    text-align: center;
+    margin: 0;
+    border-radius: 30px 30px 0px 0px;
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform-origin: bottom right;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -140px;
+    background: #b4b4b4;
+    background: -moz-linear-gradient(left, #b4b4b4 0%, #fdfdfd 100%);
+    background: -webkit-linear-gradient(left, #b4b4b4 0%, #fdfdfd 100%);
+    background: linear-gradient(to right, #b4b4b4 0%, #fdfdfd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4b4b4', endColorstr='#fdfdfd', GradientType=1);
+    box-shadow: -3px -1px 13px 0px rgba(0, 0, 0, 0.75);
+    z-index: 19;
+}
+
+.btn.btn-fixed span {
+    color: #010101;
+    display: inline-block;
+}
+
+.btn.btn-fixed:hover,
+.btn.btn-fixed:active,
+.btn.btn-fixed:focus {
+    background: #8e8e8e;
+    background: -moz-linear-gradient(left, #fdfdfd 0%, #8e8e8e 100%);
+    background: -webkit-linear-gradient(left, #fdfdfd 0%, #8e8e8e 100%);
+    background: linear-gradient(to right, #fdfdfd 0%, #8e8e8e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#8e8e8e', GradientType=1);
+}
+
+.block {
+    min-width: 1000px;
+}
+
+.block .image.with-label:before,
+.block .description.with-label:before {
+    content: '1';
+    background: #94c400;
+    color: #ffffff;
+    display: block;
+    height: 34px;
+    width: 34px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 34px;
+    position: absolute;
+}
+
+.block1 {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block1.jpg') top center no-repeat;
+    height: 772px;
+    padding-top: 5px;
+}
+
+.block1 .logo {
+    display: block;
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/logo.png') no-repeat;
+    width: 419px;
+    height: 61px;
+    margin-left: 250px;
+    text-align: center;
+    font-style: italic;
+    font-size: 37px;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 58px;
+}
+
+.block1 .content {
+    text-align: center;
+    width: 501px;
+    float: right;
+    margin-top: 20px;
+}
+
+.block1 .content .title1 {
+    font-size: 42px;
+    color: #c1ff72;
+    line-height: 1.2;
+    margin-bottom: 11px;
+    letter-spacing: -1px;
+}
+
+.block1 .content .title2 {
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 27px;
+}
+
+.block1 .content .description {
+    border-top: 1px solid rgba(60, 51, 51, 0.39);
+    border-bottom: 1px solid rgba(60, 51, 51, 0.39);
+    font-size: 18px;
+    color: rgba(18, 5, 5, 0.49);
+    font-style: italic;
+    padding: 12px 0 12px 8px;
+    margin: 0 33px 40px 29px;
+
+    text-align: center;
+}
+
+.block1 .content .list {
+    min-height: 232px;
+    padding-left: 240px;
+    text-align: left;
+    position: relative;
+}
+
+.block1 .content .list:before {
+    content: '';
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/prod1.png') left top no-repeat;
+    position: absolute;
+      left: -70px;
+   
+    width: 308px;
+    height: 307px;
+    display: block;
+  	background-size: contain;
+}
+
+.block1 .content .list span {
+    display: block;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.block1 .content .list ul {
+    font-size: 15px;
+    font-style: italic;
+    color: #b6ee6e;
+    padding-left: 24px;
+    list-style: none;
+}
+
+.block1 .content .list ul li {
+    position: relative;
+    padding-left: 27px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.block1 .content .list ul li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -4px;
+    width: 7px;
+    height: 7px;
+    background: #b6ee6e;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.block2 {
+    background: #fff;
+    padding: 29px 0 25px;
+}
+
+.block2 .item {
+    float: left;
+    width: 200px;
+}
+
+.block2 .item:nth-child(1) {
+    width: 218px;
+    margin-left: 15px;
+}
+
+.block2 .item:nth-child(2) {
+    width: 183px;
+}
+
+.block2 .item:nth-child(3) {
+    width: 200px;
+}
+
+.block2 .item:nth-child(4) {
+    width: 200px;
+}
+
+.block2 .item:nth-child(5) {
+    width: 180px;
+}
+
+.block2 .item img {
+    float: left;
+}
+
+.block2 .item div {
+    height: 86px;
+}
+
+.block2 .item div span {
+    height: 86px;
+    padding-left: 11px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #030303;
+    width: 90px;
+}
+
+.block3 {
+    position: relative;
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block3.jpg') top center no-repeat;
+    height: 624px;
+}
+
+.block3 .title1 {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+    padding: 35px 0 25px;
+}
+
+.block3 .info {
+    border-left: 8px solid #2f2f2f;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+}
+
+.block3 .info span {
+    display: block;
+    color: #2e2e2e;
+}
+
+.block3 .l-graph {
+    width: 380px;
+    float: left;
+    margin-top: 25px;
+}
+
+.block3 .l-graph .title {
+    text-align: center;
+    color: #1d1b1b;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.block3 .l-graph .title span {
+    display: block;
+    font-weight: bold;
+}
+
+.block3 .l-graph .content {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block3-left-graphic.png') no-repeat;
+    width: 371px;
+    height: 260px;
+    margin-left: 9px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.block3 .l-graph .content span.line {
+    line-height: 1;
+    font-size: 12px;
+
+    color: white;
+    position: absolute;
+}
+
+.block3 .l-graph .content span.line.line1 {
+    top: 78px;
+    left: 45px;
+}
+
+.block3 .l-graph .content span.line.line2 {
+    top: 133px;
+    left: 71px;
+}
+
+.block3 .l-graph .content span.line.line3 {
+    top: 165px;
+    left: 36px;
+}
+
+.block3 .l-graph .content span.line.line4 {
+    top: 179px;
+    left: 226px;
+    width: 135px;
+    line-height: 0.9;
+}
+
+.block3 .l-graph .content span.line.line5 {
+    top: 215px;
+    left: 180px;
+}
+
+.block3 .l-graph .info {
+    margin-top: 45px;
+}
+
+.block3 .r-graph {
+    width: 406px;
+    float: right;
+}
+
+.block3 .r-graph .title {
+    margin-top: 25px;
+}
+
+.block3 .r-graph .title p {
+    float: left;
+    color: #1d1b1b;
+    font-size: 18px;
+    font-weight: bold;
+    width: 290px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.block3 .r-graph .title ul {
+    margin-right: 15px;
+    float: right;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.block3 .r-graph .title ul li {
+    display: block;
+    font-size: 13px;
+    color: #1b1515;
+    line-height: 1;
+    position: relative;
+    padding-left: 23px;
+    margin-bottom: 8px;
+}
+
+.block3 .r-graph .title ul li:before {
+    content: '';
+    width: 14px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.block3 .r-graph .title ul li:nth-child(1):before {
+    background: #2f2f2f;
+}
+
+.block3 .r-graph .title ul li:nth-child(2):before {
+    background: #ffb400;
+}
+
+.block3 .r-graph .content {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block3-right-graphic.png') right top no-repeat;
+    margin-right: 27px;
+    overflow: hidden;
+    padding-top: 18px;
+    height: 296px;
+    margin-bottom: 25px;
+}
+
+.block3 .r-graph .content .row {
+    height: 46px;
+    padding-left: 29px;
+}
+
+.block3 .r-graph .content .row .label {
+    float: left;
+    width: 150px;
+    font-size: 12px;
+    color: #181616;
+    padding-right: 15px;
+    line-height: 1.2;
+}
+
+.block3 .r-graph .content .row .scale {
+    width: 187px;
+    float: right;
+}
+
+.block3 .r-graph .content .row .scale span {
+    display: block;
+    height: 12px;
+    margin-bottom: 5px;
+}
+
+.block3 .r-graph .content .row .scale span.man {
+    background: #2f2f2f;
+}
+
+.block3 .r-graph .content .row .scale span.woman {
+    background: #ffb400;
+}
+
+.block3 .r-graph .info {
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    width: 410px;
+    margin-top: -8px;
+
+}
+
+.block3 .block-title {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block3-title.png') repeat-y;
+    width: 525px;
+    position: absolute;
+    left: 50%;
+    margin-left: -262px;
+    bottom: -65px;
+    font-weight: normal;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+.block3 .block-title span {
+    color: #ffc12d;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.block3 .block-title em {
+    color: #fffafa;
+    font-size: 17px;
+}
+
+.block4 {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block4.png') top center repeat-y;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.block4 .side {
+    margin-top: 18px;
+    float: left;
+    width: 50%;
+    min-height: 300px;
+}
+
+.block4 .side.light-side {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block4-light.png') right 10px top no-repeat;
+}
+
+.block4 .side.light-side ol li {
+    width: 222px;
+}
+
+.block4 .side.light-side ol li:nth-child(1) {
+    width: 200px;
+    margin-left: 75px;
+    margin-bottom: 0;
+}
+
+.block4 .side.light-side ol li:nth-child(1):before {
+    margin-bottom: 20px;
+}
+
+.block4 .side.light-side ol li:nth-child(2) {
+    margin-left: 32px;
+    margin-top: 5px;
+}
+
+.block4 .side.light-side ol li:nth-child(3) {
+    margin-left: 12px;
+    width: 210px;
+    margin-top: -5px;
+}
+
+.block4 .side.light-side .prompt {
+    width: 270px;
+    margin-left: 20px;
+}
+
+.block4 .side.light-side .prompt .cell {
+    padding: 0 45px;
+}
+
+.block4 .side.light-side .info {
+    margin-right: 60px;
+    margin-left: 170px;
+    padding-right: 31px;
+}
+
+.block4 .side.light-side .info:after {
+    background-position: 0 -28px;
+}
+
+.block4 .side.dark-side {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block4-dark.png') left top 31px no-repeat;
+}
+
+.block4 .side.dark-side ol {
+	margin-left: 225px;
+    width: 280px;
+}
+
+.block4 .side.dark-side ol li:nth-child(2) {
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.block4 .side.dark-side ol li:nth-child(3) {
+    margin-left: 44px;
+    margin-top: 7px;
+}
+
+.block4 .side.dark-side ol li:nth-child(3):before {
+    margin-bottom: 40px;
+}
+
+.block4 .side.dark-side ol li:before {
+    margin-bottom: 20px;
+}
+
+.block4 .side.dark-side .prompt {
+    width: 318px;
+    background-position: 0 -92px;
+    float: right;
+    margin-right: 20px;
+}
+
+.block4 .side.dark-side .prompt .cell {
+    color: #ffffff;
+    padding: 0 30px 0 45px;
+}
+
+.block4 .side.dark-side .info {
+    margin-right: 0;
+    margin-left: 40px;
+    padding-left: 41px;
+    margin-top: 65px;
+}
+
+.block4 .side.dark-side .info:after {
+    right: auto;
+    left: 0;
+}
+
+.block4 .side ol {
+    list-style-type: none;
+    counter-reset: num;
+    height: 235px;
+    margin-left: -10px;
+}
+
+.block4 .side ol li {
+    color: #232323;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.block4 .side ol li:before {
+    content: counter(num);
+    counter-increment: num;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 31px;
+    width: 31px;
+    background: #2f2f2f;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 31px;
+    margin: 0 15px 32px 0;
+    font-style: normal;
+}
+
+.block4 .side ol li:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.block4 .side .prompt {
+    height: 92px;
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block4-prompt.png') no-repeat;
+}
+
+.block4 .side .prompt .cell {
+    height: 92px;
+    color: #000000;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.block4 .side .info {
+    color: #232323;
+    margin-top: 65px;
+    font-size: 16px;
+    position: relative;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+.block4 .side .info:after {
+    content: '';
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block4-arrows.png') no-repeat;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -14px;
+    width: 18px;
+    height: 28px;
+}
+
+.block5 {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block5.jpg') top center no-repeat;
+    height: 569px;
+}
+
+.block5 em {
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.block5 em.lefter {
+    text-indent: -60px;
+}
+
+
+.block5 .side {
+    text-align: center;
+}
+
+.block5 .side.l-side {
+    margin-top: 50px;
+    float: left;
+    width: 395px;
+}
+
+.block5 .side.l-side .title1 {
+    letter-spacing: -1px;
+    font-size: 46px;
+    color: #c1ff72;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.block5 .side.l-side img {
+    margin: 0;
+}
+
+.block5 .side.r-side {
+    width: 260px;
+    float: right;
+    margin-top: 70px;
+}
+
+.block5 .side.r-side .title1 {
+    color: #c1ff72;
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+.block5 .side.r-side .description {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.block5 .side.r-side .description p {
+    margin-top: 15px;
+    line-height: 1.3;
+}
+
+.block5 .side.r-side .btn {
+    margin: 40px 18px 0 26px;
+}
+
+.block6 h3 {
+    background: #282923;
+    line-height: 1;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 19px;
+    color: #fff;
+}
+
+.block6 h3 span {
+    color: #c1ff72;
+}
+
+.block6 .row {
+    background: #282923;
+}
+
+.block6 .row .item {
+    float: left;
+}
+
+.block6 .row .item .image img {
+    display: block;
+}
+
+.block6 .row .item .info {
+    background: #282923;
+    padding: 16px 20px 15px 35px;
+    color: #ffffff;
+    font-size: 13px;
+    min-height: 188px;
+    line-height: 1.2;
+    border-right: 1px solid #5e5f5a;
+}
+
+.block6 .row .item .info .label {
+    font-size: 35px;
+    color: #e4a100;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.block6 .row .item:nth-child(1) {
+    width: 259px;
+}
+
+.block6 .row .item:nth-child(2) {
+    width: 240px;
+}
+
+.block6 .row .item:nth-child(2) .info {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.block6 .row .item:nth-child(3) {
+    width: 244px;
+}
+
+.block6 .row .item:nth-child(4) {
+    width: 257px;
+}
+
+.block7 {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block7.jpg') top center no-repeat;
+    height: 472px;
+}
+
+.block7 .limit {
+    position: relative;
+    padding: 0 40px 0 20px;
+}
+
+.block7 .limit:before,
+.block7 .limit:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 57px;
+    width: 28px;
+    height: 244px;
+    border: 6px solid #282923;
+}
+
+.block7 .limit:before {
+    left: 0;
+    border-right: 0;
+}
+
+.block7 .limit:after {
+    right: 0;
+    border-left: 0;
+}
+
+.block7 .title {
+    color: #fffefe;
+    font-size: 26px;
+    text-align: center;
+    line-height: 1;
+    padding-top: 46px;
+    padding-left: 20px;
+}
+
+.block7 .item {
+    width: 235px;
+    float: left;
+    margin-top: 35px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.block7 .item .image {
+    text-align: center;
+    position: relative;
+    width: 161px;
+    margin: 0 auto;
+}
+
+.block7 .item .image img {
+    width: 100%;
+    height: auto;
+}
+
+.block7 .item .image:before {
+    left: -13px;
+    top: 25px;
+}
+
+.block7 .item .label {
+    display: block;
+    text-align: center;
+    color: #191919;
+    font-size: 26px;
+    margin: 5px 0;
+}
+
+.block7 .item p {
+    color: #fffefe;
+    font-size: 13px;
+    line-height: 1.3;
+    text-align: justify;
+}
+
+.block7 .item:nth-child(1) .image:before {
+    content: '1';
+}
+
+.block7 .item:nth-child(2) .image:before {
+    content: '2';
+}
+
+.block7 .item:nth-child(3) .image:before {
+    content: '3';
+}
+
+.block7 .item:nth-child(4) {
+    padding-right: 0;
+}
+
+.block7 .item:nth-child(4) .image:before {
+    content: '4';
+}
+
+.block7 .item:nth-child(4):after {
+    display: none;
+}
+
+.block7 .item:after {
+    content: '';
+    top: 72px;
+    right: -12px;
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block7-item-arrow.png') no-repeat;
+    width: 19px;
+    height: 35px;
+    position: absolute;
+    display: block;
+}
+
+.block7 .sec {
+    width: 213px;
+}
+
+.block8 {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block8.jpg') top center no-repeat;
+    height: 1330px;
+}
+
+.block8 h3 {
+    font-weight: normal;
+    font-size: 49px;
+    color: #ffffff;
+    line-height: 1;
+    margin-bottom: 25px;
+    padding-top: 30px;
+}
+
+.block8 h3 span.label1 {
+    width: 440px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.block8 h3 span.label2 {
+    width: 560px;
+    padding-top: 4px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.1;
+    float: left;
+}
+
+.block8 h3 span.label2 em {
+    font-size: 18px;
+    display: block;
+    text-transform: none;
+}
+
+.block8 .content {
+    background: #ffffff;
+    padding: 35px 30px;
+}
+
+.block8 .content.line1 .item {
+    float: left;
+    margin-right: 70px;
+    width: 182px;
+}
+
+.block8 .content.line1 .item:last-child {
+    margin-right: 0;
+}
+
+.block8 .content.line1 .item .image {
+    position: relative;
+}
+
+.block8 .content.line1 .item .image img {
+    display: block;
+}
+
+.block8 .content.line1 .item .image:before {
+    left: -14px;
+    top: -16px;
+}
+
+.block8 .content.line1 .item .label {
+    margin: 12px 0;
+    display: table;
+    width: 100%;
+    height: 63px;
+    background: #272727;
+}
+
+.block8 .content.line1 .item .label span {
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    display: table-cell;
+    height: 63px;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.block8 .content.line1 .item p {
+    font-size: 13px;
+    color: #515151;
+    line-height: 1.3;
+}
+
+.block8 .content.line1 .item:nth-child(1) .image:before {
+    content: '1';
+}
+
+.block8 .content.line1 .item:nth-child(2) .image:before {
+    content: '2';
+}
+
+.block8 .content.line1 .item:nth-child(3) .image:before {
+    content: '3';
+}
+
+.block8 .content.line1 .item:nth-child(4) .image:before {
+    content: '4';
+}
+
+.block8 .content.line2 {
+    margin-top: 75px;
+padding-top: 47px;
+    position: relative;
+  padding-bottom: 0;
+}
+.ls-rs{
+  text-align: center;
+      padding-bottom: 42px;
+  font-size: 0;
+}
+.ls{
+  vertical-align: middle;
+     display: inline-block;
+    margin-left: 130px;
+  margin-left: 0;
+      margin-top: 50px;
+}
+.fx{
+  position: absolute;
+    top: 90px;
+    right: 160px;
+}
+.rs{
+  vertical-align: middle;
+      width: 420px;
+display: inline-block;
+  text-align: left;
+      position: relative;
+    left: 30px;
+}
+.block8 .content.line2 h4.block-title {
+    display: table;
+    width: 525px;
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block3-title.png') repeat-y;
+    font-weight: normal;
+    position: absolute;
+    left: 50%;
+    margin-left: -262px;
+    top: -53px;
+}
+
+.block8 .content.line2 h4.block-title span {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 18px 23px;
+}
+
+.block8 .content.line2 h4.block-title span.title {
+      color: #ff5f5f;
+    font-size: 26px;
+    text-transform: uppercase;
+    width: 260px;
+    line-height: 1.2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.block8 .content.line2 h4.block-title span.description {
+    color: #fffafa;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.block8 .content.line2 .squad1 {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.block8 .content.line2 .squad1 .item {
+    width: 32%;
+    float: left;
+    padding: 0 15px;
+}
+
+.block8 .content.line2 .squad1 .item:first-child {
+    width: 36%;
+}
+
+.block8 .content.line2 .squad1 .item .image {
+    display: table;
+    height: 110px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.block8 .content.line2 .squad1 .item .image span {
+    vertical-align: middle;
+    display: table-cell;
+    height: 110px;
+}
+
+.block8 .content.line2 .squad1 .item .description {
+    position: relative;
+    padding-left: 50px;
+}
+
+.block8 .content.line2 .squad1 .item .description span {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #414141;
+    margin-bottom: 8px;
+    display: block;
+    letter-spacing: -1px;
+}
+
+.block8 .content.line2 .squad1 .item .description:before {
+    left: 0;
+    top: 0;
+}
+
+.block8 .content.line2 .squad1 .item .description p {
+    color: #414141;
+    font-size: 13px;
+}
+
+.block8 .content.line2 .squad1 .item:nth-child(2) .description:before {
+    content: '2';
+}
+
+.block8 .content.line2 .squad1 .item:nth-child(3) .description:before {
+    content: '3';
+}
+
+.block8 .content.line2 .squad2 .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.block8 .content.line2 .squad2 h4 {
+    margin-top: 23px;
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block8-squad2-separator.jpg') center repeat-x;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.block8 .content.line2 .squad2 h4 span {
+    background: #ffffff;
+    padding: 0 41px;
+}
+
+.block8 .content.line2 .squad2 .item {
+    padding: 0 10px;
+    width: 235px;
+    float: left;
+}
+
+.block8 .content.line2 .squad2 .item .story {
+    width: 140px;
+    float: right;
+}
+
+.block8 .content.line2 .squad2 .item .label {
+    font-weight: bold;
+    color: #94c400;
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.block8 .content.line2 .squad2 .item p {
+    color: #515151;
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.block9 {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block9.jpg') top center no-repeat;
+    height: 929px;
+}
+
+.block9 .title {
+    font-size: 30px;
+    color: #c1ff72;
+    text-align: center;
+    line-height: 1.2;
+    padding-top: 48px;
+    margin: 0 115px;
+    border-bottom: 1px solid #a2bd59;
+    padding-bottom: 20px;
+}
+
+.block9 .title span {
+    color: #ffffff;
+    display: block;
+}
+
+.block9 .description {
+    color: #c1ff72;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    margin: 16px 0 0;
+    line-height: 1.2;
+}
+
+.block9 .content {
+    position: relative;
+}
+
+.block9 .compare {
+    width: 510px;
+    margin: 30px auto 0;
+}
+
+.block9 .compare .tooltip {
+    position: absolute;
+    height: 32px;
+    min-width: 126px;
+    line-height: 32px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    background: #acd52f;
+    left: 36px;
+    top: 0;
+}
+
+.block9 .compare .tooltip:after,
+.block9 .compare .tooltip:before {
+    content: '';
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block9-tooltip.png') no-repeat;
+    width: 12px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.block9 .compare .tooltip:before {
+    left: -11px;
+}
+
+.block9 .compare .tooltip:after {
+    right: -12px;
+    background-position: -12px 0;
+}
+
+.block9 .compare .tooltip.tooltip-shoulder {
+    top: 90px;
+    width: 170px;
+}
+
+.block9 .compare .tooltip.tooltip-waist {
+    top: 250px;
+}
+
+.block9 .compare .tooltip.tooltip-hip {
+    top: 330px;
+}
+
+.block9 .compare .tooltip i {
+    height: 1px;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    display: block;
+    z-index: 0;
+}
+
+.block9 .compare .side {
+    width: 50%;
+    float: left;
+}
+
+.block9 .compare .side .image {
+    position: relative;
+}
+
+.block9 .compare .side .image img {
+    display: block;
+}
+
+.block9 .compare .side .image .weight {
+    width: 82px;
+    height: 93px;
+    position: absolute;
+    bottom: 13px;
+    left: 50%;
+    margin-left: -41px;
+    line-height: 93px;
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.block9 .compare .side.before .weight {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block9-before-weight.png') no-repeat;
+}
+
+.block9 .compare .side.before .tooltip i {
+    background: #acd52f;
+}
+
+.block9 .compare .side.before .tooltip.tooltip-shoulder i {
+    right: -65px;
+    width: 65px;
+}
+
+.block9 .compare .side.before .tooltip.tooltip-waist i {
+    right: -145px;
+    width: 145px;
+}
+
+.block9 .compare .side.before .tooltip.tooltip-hip i {
+    right: -142px;
+    width: 142px;
+}
+
+.block9 .compare .side.after .weight {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block9-after-weight.png') no-repeat;
+}
+
+.block9 .compare .side.after .tooltip {
+    left: auto;
+    right: 40px;
+    background: #ffb400;
+}
+
+.block9 .compare .side.after .tooltip i {
+    background: #ffb400;
+    right: auto;
+    left: 0;
+}
+
+.block9 .compare .side.after .tooltip.tooltip-shoulder i {
+    left: -75px;
+    width: 80px;
+}
+
+.block9 .compare .side.after .tooltip.tooltip-waist i {
+    left: -154px;
+    width: 154px;
+}
+
+.block9 .compare .side.after .tooltip.tooltip-hip i {
+    left: -152px;
+    width: 152px;
+}
+
+.block9 .compare .side.after .tooltip:before {
+    background-position: -24px 0;
+}
+
+.block9 .compare .side.after .tooltip:after {
+    background-position: -36px 0;
+}
+
+.block9 .info {
+    margin-top: 30px;
+}
+
+.block9 .info > div {
+    float: left;
+}
+
+.block9 .info .label {
+    width: 248px;
+    color: #292929;
+    padding-top: 10px;
+}
+
+.block9 .info .label .title1 {
+    font-size: 30px;
+    line-height: 1;
+}
+
+.block9 .info .label .title2 {
+    font-size: 23px;
+    color: #ffffff;
+    margin-bottom: 2px;
+}
+
+.block9 .info .label .title3 {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.block9 .info .item {
+    width: 108px;
+    margin-right: 53px;
+    position: relative;
+}
+
+.block9 .info .item:last-child {
+    margin-right: 0;
+}
+
+.block9 .info .item:last-child:after {
+    display: none;
+}
+
+.block9 .info .item img {
+    display: block;
+}
+
+.block9 .info .item:after {
+    content: '';
+    top: 35px;
+    right: -37px;
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block9-item-arro.png') no-repeat;
+    width: 19px;
+    height: 35px;
+    position: absolute;
+    display: block;
+}
+
+.block10 {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block10.jpg') top center no-repeat;
+    height: 386px;
+}
+
+.block10 .side {
+    float: left;
+    width: 50%;
+    max-width: 315px;
+    padding-top: 37px;
+}
+
+.block10 .side h3 {
+    color: #2b2b2b;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.block10 .side .description {
+    font-style: italic;
+    color: #456500;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.block10 .side ul {
+    list-style: none;
+    color: #585858;
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.block10 .side ul li {
+    padding-left: 42px;
+    margin-bottom: 8px;
+}
+
+.block10 .side.l-side ul li {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block10-marque-minus.png') left center no-repeat;
+}
+
+.block10 .side.r-side {
+    float: right;
+    padding-top: 37px;
+}
+
+.block10 .side.r-side ul li {
+    min-height: 20px;
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block10-marque-plus.png') left center no-repeat;
+}
+
+.block10 .side.r-side .ttu-rs {
+    margin-bottom: 25px;
+}
+
+.block10 .side.r-side .description {
+    margin-bottom: 30px;
+}
+
+.block11 {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block11.jpg') top center no-repeat;
+    height: 818px;
+}
+
+.block11 .content {
+    width: 386px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 44px;
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block11-cup.png') top center no-repeat;
+    padding-top: 220px;
+    text-align: center;
+}
+
+.block11 .content .title1 {
+    color: #94c400;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.block11 .content .title2 {
+    color: #413e3e;
+    font-size: 20px;
+}
+
+.block11 .content .title3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #496011;
+    font-style: italic;
+    border-top: 1px solid #728743;
+    border-bottom: 1px solid #728743;
+    padding: 10px 22px 12px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.block11 .content .title4 {
+    color: #4a4545;
+    font-size: 16px;
+}
+
+.block11 .content .btn {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.block11 .content .brands {
+    margin-top: 25px;
+}
+
+.block12 {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block12.jpg')  center top no-repeat;
+  background-size: cover;
+}
+
+.block12 .limit {
+    padding-top: 90px;
+    position: relative;
+}
+
+.block12 .title {
+    background: #162329;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -34px;
+}
+
+
+.ingredients{
+  margin-top: 35px;
+  text-align: center;
+}
+
+ul.ingredients li{
+      display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    font-size: 20px;
+    margin: 25px 0 30px;
+    position: relative;
+}
+
+ul.ingredients li span {
+    display: block;
+      font-size: 14px;
+}
+
+ul.ingredients li span:before {
+    content: '';
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 15px;
+}
+
+ul.ingredients li small {
+right: 15px;
+    top: -25px;
+    position: absolute;
+    display: block;
+    /* -webkit-border-radius: 50%; */
+    -moz-border-radius: 50%;
+    /* border-radius: 50%; */
+    background: #39709b;
+    width: 169px;
+    text-align: center;
+    background: #39709b;
+    color: #fff;
+    box-shadow: 0 0 0 3px rgba(57,112,155,.3);
+    font-weight: 700;
+    font-size: 13px;
+    padding: 13px 0;
+    z-index: 1;
+    line-height: 1;
+}
+
+ul.ingredients li:nth-child(1) span:before {
+    background: url(//dadbab.info/content/xXlHZ0stMbBDQhY/img/block_6_li1.png) center no-repeat;
+}
+ul.ingredients li:nth-child(2) span:before {
+    background: url(//dadbab.info/content/xXlHZ0stMbBDQhY/img/block_6_li2.png) center no-repeat;
+}
+ul.ingredients li:nth-child(3) span:before {
+    background: url(//dadbab.info/content/xXlHZ0stMbBDQhY/img/block_6_li3.png) center no-repeat;
+}
+ul.ingredients li:nth-child(4) span:before {
+    background: url(//dadbab.info/content/xXlHZ0stMbBDQhY/img/block_6_li4.png) center no-repeat;
+}
+ul.ingredients li:nth-child(5) span:before {
+    background: url(//dadbab.info/content/xXlHZ0stMbBDQhY/img/block_6_li5.png) center no-repeat;
+}
+ul.ingredients li:nth-child(6) span:before {
+    background: url(//dadbab.info/content/xXlHZ0stMbBDQhY/img/block_6_li6.png) center no-repeat;
+}
+ul.ingredients li:nth-child(7) span:before {
+    background: url(//dadbab.info/content/xXlHZ0stMbBDQhY/img/block_6_li7.png) center no-repeat;
+}
+
+ul.ingredients li:nth-child(6) small {
+    font-size: 16px;
+    letter-spacing: -1px;
+    padding: 17px 0;
+}
+ul.ingredients li:nth-child(7) small {
+    font-size: 16px;
+    letter-spacing: -1px;
+    padding: 17px 0;
+}
+
+ul.ingredients li small+small {
+    width: 78px;
+    right: -20px;
+    top: 10px;
+    padding: 23px 0!important;
+    z-index: 0;
+}
+
+
+.block12 .title > div {
+    display: table;
+    width: 100%;
+}
+
+.block12 .title > div .cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 0;
+}
+
+.block12 .title > div .cell.label {
+    width: 270px;
+    padding-left: 35px;
+    color: #796e6e;
+    font-size: 25px;
+    line-height: 1.25;
+}
+
+.block12 .title > div .cell.label span {
+    color: #c1ff72;
+    font-size: 30px;
+}
+
+.block12 .title > div .cell.description {
+    padding-left: 11px;
+    font-size: 14px;
+    font-style: italic;
+    color: #7f767b;
+    line-height: 1.3;
+    padding-right: 20px;
+}
+
+.block12 .title > div .cell.before {
+    width: 267px;
+    position: relative;
+}
+
+.block12 .title > div .cell.before > div {
+    position: relative;
+    float: left;
+}
+
+.block12 .title > div .cell.before > div.before span {
+    background: #353535;
+}
+
+.block12 .title > div .cell.before > div.after span {
+    background: #94c400;
+    right: -11px;
+}
+
+.block12 .title > div .cell.before span {
+    z-index: 10;
+    position: absolute;
+    right: -16px;
+    top: -20px;
+    height: 48px;
+    width: 48px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+    line-height: 48px;
+    text-align: center;
+    color: #fffefe;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.block12 .title > div .cell.before img {
+    border: 1px solid #000;
+    display: block;
+}
+
+.block12 .title > div .cell.before.step2 {
+    padding-left: 47px;
+}
+
+.block12 .content .side.l-side {
+    width: 320px;
+    float: left;
+  	margin-left: 130px;
+}
+
+.block12 .content .side.r-side {
+    width: 420px;
+    float: right;
+}
+
+.block12 .content .side.r-side .row .label {
+    width: 72px;
+    margin-right: 0;
+}
+
+.block12 .content .side.r-side .row .value {
+    width: 333px;
+    margin-left: 15px;
+}
+
+.block12 .content .side .row {
+    min-height: 20px;
+    margin-bottom: 4px;
+}
+
+.block12 .content .side .row .label {
+    float: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #d0fa9b;
+    width: 120px;
+    margin-right: 24px;
+}
+
+.block12 .content .side .row .value {
+    width: 276px;
+    float: left;
+    color: #f0ffdd;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+.block13 {
+    background: #ebebeb url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block13.jpg') center no-repeat;
+}
+
+.block13 .limit {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.block13 .title {
+    height: 60px;
+    line-height: 60px;
+    color: #b8b8b8;
+    font-size: 26px;
+    background: #162329;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: -33px;
+    text-align: center;
+}
+
+.block13 .item {
+    width: 33%;
+    float: left;
+    padding: 0 23px;
+}
+
+.block13 .item .image {
+    position: relative;
+}
+
+.block13 .item .image span {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    margin-left: -29px;
+    width: 59px;
+    height: 59px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+    background: #94c400;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 59px;
+    text-align: center;
+}
+
+.block13 .item .image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.block13 .item .label {
+    color: #456500;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 15px;
+}
+
+.block13 .item .duration {
+    margin-top: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #162329;
+    margin-bottom: 15px;
+}
+
+.block13 .item .result {
+    height: 34px;
+    line-height: 34px;
+    background: #162329;
+    font-size: 13px;
+    padding: 0 12px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.block13 .item .result span.before {
+    color: #ffffff;
+    float: left;
+}
+
+.block13 .item .result span.after {
+    color: #c1ff72;
+    float: right;
+}
+
+.block13 .item .name {
+
+    color: #456500;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.block13 .item .story {
+    color: #162329;
+    font-size: 13px;
+}
+
+.block13 .item .bl-13-result {
+    margin-top: 35px;
+}
+
+.block13 .item .bl-13-result-3 {
+    margin-top: 37px;
+}
+
+.block14 {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block14.jpg') top center no-repeat;
+    min-height: 1165px;
+    padding-bottom: 70px;
+
+}
+
+.block14 .limit{
+  position: relative;
+}
+.block14 .content1 {
+    text-align: center;
+    margin-left: 64px;
+    width: 425px;
+    height: 429px;
+    padding-top: 64px;
+}
+
+.block14 .content1 .title1 {
+    font-size: 46px;
+    color: #c1ff72;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.block14 .content1 .title2 {
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.block14 .content1 .description {
+    border-top: 1px solid rgba(255, 255, 255, 0.39);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.39);
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.78);
+    font-style: italic;
+    padding: 12px 0;
+    margin-bottom: 30px;
+    letter-spacing: -0.3px;
+}
+
+.block14 .content2 {
+    text-align: center;
+    min-height: 739px;
+}
+
+
+
+.block14 .content2 .title1 {
+    color: #c1ff72;
+    text-transform: uppercase;
+    font-size: 26px;
+    padding-top: 39px;
+}
+
+.block14 .content2 .title2 {
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.block14 .content2 .story {
+    line-height: normal;
+    margin: 0 130px;
+    position: relative;
+    color: #ffffff;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.block14 .content2 .story:after,
+.block14 .content2 .story:before {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block14-quotes.png') no-repeat;
+    width: 12px;
+    height: 10px;
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    top: -25px;
+}
+
+.block14 .content2 .story:after {
+    left: auto;
+    right: 10px;
+    bottom: -10px;
+    top: auto;
+    background-position: -12px 0;
+}
+
+.block14 .content3 .title {
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 25px;
+}
+
+.block14 .content3 .row {
+    text-align: center;
+}
+
+.block14 .content3 .row img {
+    margin-left: -4px;
+}
+
+.warning {
+    background: #162329;
+    padding: 20px 0;
+}
+
+.warning p {
+    position: relative;
+    padding-left: 120px;
+    margin: 0;
+    font-size: 20px;
+  	font-style: italic;
+    color: #fff;
+}
+
+.warning p::before {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 4%;
+    width: 80px;
+    height: 80px;
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/warning.png') no-repeat center center;
+}
+
+.block15 {
+    background: url('//dadbab.info/content/xXlHZ0stMbBDQhY/img/block15.jpg') top center no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+.block15 .content {
+    width: 500px;
+	padding: 150px 0;
+    float: right;
+    text-align: center;
+}
+
+.block15 .content .title1 {
+    color: #413e3e;
+    letter-spacing: -0.6px;
+    font-size: 26px;
+    line-height: 1.1;
+}
+
+.block15 .content .title2 {
+    letter-spacing: -0.7px;
+    font-size: 43px;
+    color: #413e3e;
+    margin-bottom: 5px;
+}
+
+.block15 .content .form {
+    display: block;
+    width: 330px;
+    margin: 0 auto;
+}
+
+.block15 .content .form .form-group {
+    margin-bottom: 22px;
+}
+
+.block15 .content .form input[type="text"],
+.block15 .content .form select {
+    outline: none;
+    line-height: normal;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: 1px solid #464646;
+    color: #292929;
+    font-size: 18px;
+    display: block;
+    background-color: #ebebeb;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    padding:15px
+}
+
+
+.block15 .content .form input[type="text"]::-webkit-input-placeholder,
+.block15 .content .form select::-webkit-input-placeholder {
+    color: #292929;
+}
+
+.block15 .content .form input[type="text"]::-moz-placeholder,
+.block15 .content .form select::-moz-placeholder {
+    color: #292929;
+}
+
+.block15 .content .form input[type="text"]:-moz-placeholder,
+.block15 .content .form select:-moz-placeholder {
+    color: #292929;
+}
+
+.block15 .content .form input[type="text"]:-ms-input-placeholder,
+.block15 .content .form select:-ms-input-placeholder {
+    color: #292929;
+}
+
+.block15 .content .form .price {
+    color: #5b5b5b;
+    font-size: 16px;
+    padding: 12px 12px 0;
+    text-align: left;
+    margin-top: -17px;
+    margin-bottom: 17px;
+}
+.block15 .content .form .price span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #030303;
+    float: right;
+}
+
+.block5 .limit.clearfix {
+    position: relative;
+}
+
+.block5 .limit.clearfix .center {
+    position: absolute;
+    top: 460px;
+    left: 350px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+select {
+	background-image:url(//dadbab.info/content/xXlHZ0stMbBDQhY/img/down.svg) !important;
+	background-position:95% 50% !important;
+	background-repeat:no-repeat !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.hide_price {
+    display: none;
+}
